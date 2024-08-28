@@ -1,0 +1,148 @@
+*{
+	margin:0;
+}
+
+
+nav{
+	background: grey;
+	display: flex;
+	justify-content: space-between;
+	padding: 5px 10px;
+	align-items: center;
+
+
+	position: sticky;
+	top: 0;
+
+}
+
+nav ul{
+	display: flex;
+	gap: 20px;
+	list-style-type: none;
+	text-transform: uppercase;
+}
+
+nav ul a{
+	text-decoration: none;
+	color: whitesmoke;
+}
+
+
+
+
+#home{
+	background: #252525;
+	color: whitesmoke;
+	height: 100vh;
+	width:100%;
+
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+#home .container{
+	display: flex;
+	width: 70%;
+	align-items: center;
+	margin: 0 auto;
+	padding-top: 100px;
+
+	gap: 80px;
+}	
+
+#home .container .banner > * {
+	border-radius: 5px;
+}
+
+
+#home section a button{
+	margin: 20px 0;
+}
+
+#about{
+	height: 100vh;
+	width:100%;
+
+	background-color: #292929;
+	color: whitesmoke;
+}
+
+
+#about h1{
+	display: block;
+	padding: 20px 500px;
+}
+
+#about .container{
+	display: flex;
+}
+
+#about .card-container{
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+}
+
+
+#about .card{
+	background-color: #252525;
+	color: transparent;
+
+	padding: 10px;
+	margin: 20px;
+
+	height: 20px;
+	width: 20px;
+	transition: .5s;
+	overflow: hidden;
+
+	align-items: center;
+
+	border-radius: 5px;
+
+	border: 1px solid whitesmoke;
+
+
+}
+
+
+
+#about .card:hover{
+	height: 30em;
+	width: 800px;
+	color: whitesmoke;
+
+	position: relative;
+	right: 50px;
+	left: 30px;
+}
+
+ #about .card > *:not(h4){
+ 	color: transparent;
+ }
+
+#about .card > *:hover{
+	color: black;
+}
+
+#about .card ul li{
+	list-style-type: none;
+	text-indent:-10px;
+	color: whitesmoke;
+}
+
+#about .card .keyterms{
+	font-size:1.5em;
+	display: block;
+}
+
+#about .card .points{
+	color: transparent;
+	transition: .5s;
+}
+
+#about .card .points:hover{
+	color: whitesmoke;
+}
